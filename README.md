@@ -1,4 +1,4 @@
-# AirMonitoringSystem
+# Air Monitoring System
 This project is related to the Air Quality Index monitoring through set of sensors and Microcontroller. 
 ESP8266 has been used for the controlling the system on the client side while on the server side, we have used Granduer Tech services
 to make our system effecient. Cloud database and deploymenet has been done with Grandeur Tech.
