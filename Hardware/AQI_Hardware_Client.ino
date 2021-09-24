@@ -32,13 +32,13 @@ CO2Sensor co2Sensor(A0, 0.99, 100);
 int co2_values[] = {0,0,0,0,0};
 
 /* Configurations */
-String deviceID = "devicektsoio2109bx01xt6l5yh9t2";
-String apiKey = "grandeurktso04c509be01xtfjp7enlc";
-String token = "eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNkltRmpZMlZ6YzJ0MGMyODRkSFoxTURsaWJqQXhlSFE1YjI1M1kzTmpNeUlzSW5SNWNHVWlPaUpoWTJObGMzTWlMQ0pwWVhRaU9qRTJNekl4TkRNM05EVjkudWhtNDE5T3QwRWI1RFd1YUQzRTFXMjVoVlFUazF0QUVtM1NQZVE1eHZnOCJ9";
+String deviceID = "YOUR-DEVICE-ID";
+String apiKey = "YOUR-API-KEY";
+String token = "YOUR-ACCESS-TOKEN";
 
 /* WiFi credentials */
-String ssid = "AK-Home";
-String password = "Vamos4185";
+String ssid = "YOUR-WIFI-SSID";
+String password = "YOUR-WIFI-PASSWORD";
 
 /* Create variable to hold project and device */
 Grandeur::Project project;
