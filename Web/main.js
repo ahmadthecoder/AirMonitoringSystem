@@ -4,9 +4,9 @@
     a reference to the project
 */
 
-var API_KEY = "grandeurktso04c509be01xtfjp7enlc";
-var ACCESS_KEY = "accessktso8tvu09bn01xt9onwcsc3";
-var ACCESS_TOKEN = "eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNkltRmpZMlZ6YzJ0MGMyODRkSFoxTURsaWJqQXhlSFE1YjI1M1kzTmpNeUlzSW5SNWNHVWlPaUpoWTJObGMzTWlMQ0pwWVhRaU9qRTJNekl4TkRNM05EVjkudWhtNDE5T3QwRWI1RFd1YUQzRTFXMjVoVlFUazF0QUVtM1NQZVE1eHZnOCJ9";
+var API_KEY = "YOUR-API-KEY";
+var ACCESS_KEY = "YOUR-ACCESS-KEY";
+var ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 var project = grandeur.init(API_KEY, ACCESS_KEY, ACCESS_TOKEN);
 var datastore = project.datastore();
 
@@ -228,7 +228,7 @@ project.onConnection((status) => {
                 and set the state to a random string.
             */
             
-            var deviceID = "devicektsoio2109bx01xt6l5yh9t2";
+            var deviceID = "YOUR-DEVICE-ID";
             
             /* Here we use *Date* for a random state value */
             var state = Date.now();
@@ -258,8 +258,8 @@ project.onConnection((status) => {
 async function login() {
     /* Store credentials into variables */
 
-    var email = "meet.ahmad247@gmail.com";
-    var password = "Vamos4185";
+    var email = "YOUR-EMAIL";
+    var password = "YOUR-PASSWORD";
 
     /* Set the status to logging in */
     document.getElementById("status").innerText = "Logging in";
