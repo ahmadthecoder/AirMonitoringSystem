@@ -5,7 +5,6 @@
 #include <ESP8266WebServer.h>
 #include <SoftwareSerial.h>
 #include <ESP8266HTTPClient.h>
-#include <ArduinoJson.h>
 #include <WiFiClient.h>
 #include <NTPClient.h>
 #include "time.h"
