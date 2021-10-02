@@ -122,7 +122,6 @@ String printLocalTime()
           time (&rawtime);
           timeinfo = localtime (&rawtime);
           strftime(s,sizeof(s),"%T %d/%m/%Y", timeinfo);
-          //Serial.println(s);
           delay(1000);
           return s;
     }
